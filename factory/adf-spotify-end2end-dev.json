@@ -1,0 +1,9 @@
+{
+	"name": "adf-spotify-end2end-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e64d11c-caaf-43b1-8666-543cd9a437cc",
+		"tenantId": "d31cf8e7-b653-4493-978a-09bced2cbbaf"
+	}
+}
