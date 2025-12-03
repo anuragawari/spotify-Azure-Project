@@ -180,11 +180,11 @@
 												"parameters": {
 													"container": "bronze",
 													"folder": {
-														"value": "@pipeline().parameters.table",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"filer": {
-														"value": "@concat(pipeline().parameters.table,' ',variables('current_ts'))",
+														"value": "@concat(item().table,' ',variables('current_ts'))",
 														"type": "Expression"
 													}
 												}
